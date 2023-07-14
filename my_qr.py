@@ -7,7 +7,7 @@ qr = qrcode.QRCode(
     border=4
 )
 
-qr.add_data("https://github.com/mowgleeraj/QRCODE-Python")
+qr.add_data("https://github.com/mowgleeraj/QRCODE")
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="red", back_color="black")

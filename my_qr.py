@@ -10,6 +10,6 @@ qr = qrcode.QRCode(
 qr.add_data("https://github.com/mowgleeraj/QRCODE")
 qr.make(fit=True)
 
-img = qr.make_image(fill_color="red", back_color="black")
+img = qr.make_image(fill_color="black", back_color="white")
 img.save("random_web.jpg")
 
